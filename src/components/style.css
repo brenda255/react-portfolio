@@ -16,8 +16,25 @@
 }
 
 .about {
-    background-color: #478ecd;
+    background-color: #A4B494;
     background-size: cover;
     height: 100vh;
 }
 
+.resume {
+    background-color: #BEC5AD ;
+    background-size: cover;
+    height: 100vh;
+}
+
+.portfolio {
+    background-color: white ;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contact {
+    background-color: #519872 ;
+    background-size: cover;
+    height: 100vh;
+}

@@ -5,16 +5,12 @@ export default function Resume() {
     <div className='about'>
       <h1>About Me</h1>
       <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-recusandae alias error harum maxime adipisci amet laborum. Perspiciatis</p>
+      I am a driven and dedicated developer with a passion for creating innovative solutions to complex problems. Through my bootcamp experience, I have gained a strong foundation in HTML, CSS, and JavaScript as well as experience with various front-end and back-end frameworks.<br></br>
+
+      <br></br>I have honed my skills in collaborative development, agile methodologies, and project management, and am committed to continuous learning and growth as a developer. My projects have included creating responsive websites, building interactive web applications, and integrating APIs, among others.<br></br>
+
+      <br></br>I am actively seeking opportunities to apply my skills and collaborate with teams on exciting projects. If you're interested in working with a motivated and enthusiastic developer, please don't hesitate to reach out. Let's build something great together!<br></br>
+      </p>
     </div>
   );
 }

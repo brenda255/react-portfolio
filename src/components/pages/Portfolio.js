@@ -2,7 +2,7 @@ import React from 'react';
 import "../style.css";
 export default function Portfolio() {
   return (
-    <div>
+    <div className='portfolio'> 
       <h1>Portfolio</h1>
       <div className='pics'>
         <a href="https://brenda255.github.io/weather-dashboard/"><img alt="weather" src="../images/weather.jpg"></img>  </a><br></br>

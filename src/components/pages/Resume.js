@@ -1,8 +1,9 @@
 import React from 'react';
+import "../style.css"
 
 export default function Resume() {
   return (
-    <div>
+    <div className='resume'>
       <h1>Resume</h1>
       <p>
         Download my <a href="https://docs.google.com/document/d/1uuReNEPYVU-HyOk8_85ByvHY04RgJ0qHXTcmk_wJPw4/edit?usp=sharing">Resume</a>
