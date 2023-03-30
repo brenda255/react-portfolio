@@ -1,8 +1,14 @@
 .main {
     display: flex;
     width: 90%;
-    justify-content: right;
+    justify-content: center;
     gap: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .pics {
@@ -28,7 +34,7 @@
 }
 
 .portfolio {
-    background-color: white ;
+    background-color: #4D6A5F;
     background-size: cover;
     height: 100vh;
 }
@@ -38,3 +44,4 @@
     background-size: cover;
     height: 100vh;
 }
+
