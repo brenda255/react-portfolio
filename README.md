@@ -36,3 +36,4 @@ The website uses various open-source libraries and assets, including React.
 This project is licensed under the MIT License.
 
 ## Visual
+![](./src/images/ss.png)
