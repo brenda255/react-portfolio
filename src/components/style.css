@@ -1,14 +1,66 @@
-.main {
-    display: flex;
-    width: 90%;
-    justify-content: center;
-    gap: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+*{
+font-family: 'Signika', sans-serif; 
 }
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: hsla(295, 71%, 27%, 1);
+
+    background: linear-gradient(90deg, hsla(295, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(295, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(295, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#701478", endColorstr="#83D0CB", GradientType=1 );
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 4px 32px;
+    margin-right: auto;
+  }
+
+.nav-tabs {
+    display: flex;
+    justify-content: flex-end;
+    /* gap: 14px; */
+    font-size: 30px;
+    width: 100%;
+}
+
 
 ul {
     list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;  
+    
+}
+
+li {
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 8px;
+
 }
 
 .pics {
@@ -21,27 +73,8 @@ ul {
     text-align: center;
 }
 
-.about {
-    background-color: #A4B494;
-    background-size: cover;
+.about, .resume, .portfolio, .contact {
     height: 100vh;
 }
 
-.resume {
-    background-color: #BEC5AD ;
-    background-size: cover;
-    height: 100vh;
-}
-
-.portfolio {
-    background-color: #4D6A5F;
-    background-size: cover;
-    height: 100vh;
-}
-
-.contact {
-    background-color: #519872 ;
-    background-size: cover;
-    height: 100vh;
-}
 
