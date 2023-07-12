@@ -5,7 +5,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='header'>
     <ul className="nav-tabs">
-    <div className="name fade-in">First Last</div>        
+    <div className="name fade-in">First Name Last Name</div>        
       <li className="nav-item">
       <a
           href="#about"
