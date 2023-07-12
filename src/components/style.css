@@ -35,9 +35,9 @@ body {
     margin: 100px auto;
     padding: 20px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     opacity: 0; 
     transform: translateY(100vh); 
     animation: fade-in-bottom 3s ease-in-out forwards; 
@@ -59,18 +59,22 @@ body {
     transform: scale(1.05);
 }
 
-.greeting h1 {}
+
+.greeting-one {
+    display: flex;
+    justify-content: center;
+}
 
 
 .name {
     display: flex;
     font-size: 38px;
     font-weight: 900;
-    padding-left: 20%;
-    margin: auto;
+    margin-right: auto;
     opacity: 0;
     animation: fade-in 3s ease-in-out forwards;
     cursor: pointer;
+    color: rgb(82, 72, 75);
 }
 
 @keyframes fade-in {
@@ -179,6 +183,16 @@ padding: 0 20px; /* Add some padding to the sides for better readability */
 }
 
 
+/* Resume Page */
+.resume h1, .skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
 /* Contact Page */
 .form {
     text-align: center;
@@ -191,5 +205,5 @@ padding: 0 20px; /* Add some padding to the sides for better readability */
 }
 
 .nav-link {
-    color: #F35666;
+    color: rgb(82, 72, 75);
 }
