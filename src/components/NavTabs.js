@@ -5,7 +5,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='header'>
     <ul className="nav-tabs">
-    <div className="name fade-in" onClick={() => handlePageChange('Greeting')}>First Name Last Name</div>        
+    <div className="name fade-in" onClick={() => handlePageChange('Greeting')}>Brenda Sendejas</div>        
       <li className="nav-item">
       <a
           href="#about"

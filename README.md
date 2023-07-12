@@ -27,7 +27,7 @@ You can modify the content of the pages and components, as well as the styleshee
 You can modify the stylesheets using the CSS files in the src directory. 
 
 ## Deployment
-To deploy the website to a live server, you can use a service such as Netlify or Heroku. Create a new project on the service and link it to your GitHub repository. The service will automatically build and deploy the website whenever you push changes to the repository.
+Click [here](https://lovely-malabi-244998.netlify.app/) to view deployed site. 
 
 ## Credits
 The website uses various open-source libraries and assets, including React.
