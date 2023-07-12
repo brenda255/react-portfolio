@@ -123,18 +123,45 @@ a {
 
 
 /* About Me Page  */
+
+.about{
+    margin-top: 150px;
+}
+
 .about h1 {
     display: flex;
     justify-content: center;
 }
 
+.about p {
+text-align: center; /*Centers the text*/
+max-width: 800px; /* Sets a maximum width to prevent text from extending too far */
+margin: 50px auto; /* Centers the element horizontally */
+padding: 0 20px; /* Add some padding to the sides for better readability */
+}
 
 
 /* Portfolio Page */
+
+.portfolio h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
 .pics {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.portfolio-img{
+    width: 590px;
+    border-radius: 35px;
 }
 
 
@@ -147,7 +174,6 @@ a {
 .resume,
 .portfolio,
 .contact {
-    height: 100vh;
 }
 
 .nav-link {
