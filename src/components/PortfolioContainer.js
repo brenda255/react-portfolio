@@ -27,8 +27,14 @@ export default function PortfolioContainer() {
     return <Contact />;
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
-
+  const handlePageChange = (page) => {
+    if (page === 'Greeting') {
+      setCurrentPage('Greeting');
+    } else {
+      setCurrentPage(page);
+    }
+  };
+  
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}

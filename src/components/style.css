@@ -21,6 +21,14 @@ body {
     height: 100vh;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    align-items: center;
+}
+
+/* Greeting page */
 .greeting {
     width: fit-content;
     height: fit-content;
@@ -37,15 +45,8 @@ body {
     transform: scale(1.05);
 }
 
-.greeting h1 {
-}
+.greeting h1 {}
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 10px;
-    align-items: center;
-}
 
 .name {
     display: flex;
@@ -55,15 +56,18 @@ body {
     margin: auto;
     opacity: 0;
     animation: fade-in 3s ease-in-out forwards;
+    cursor: pointer;
 }
+
 @keyframes fade-in {
     0% {
-      opacity: 0;
-      transform: translateY(-35px);
+        opacity: 0;
+        transform: translateY(-35px);
     }
+
     100% {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
@@ -73,19 +77,22 @@ body {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
     opacity: 0;
     animation: fade-in 3s ease-in-out forwards;
-  }
-  
-  @keyframes fade-in {
+}
+
+@keyframes fade-in {
     0% {
-      opacity: 0;
-      transform: translateY(-35px);
+        opacity: 0;
+        transform: translateY(-35px);
     }
+
     100% {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
-  
+}
+
+
+/* Navbar */
 .nav-tabs {
     display: flex;
     justify-content: flex-end;
@@ -114,12 +121,24 @@ a {
 
 }
 
+
+/* About Me Page  */
+.about h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Portfolio Page */
 .pics {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
 }
 
+
+/* Contact Page */
 .form {
     text-align: center;
 }
