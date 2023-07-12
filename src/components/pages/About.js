@@ -1,6 +1,6 @@
 import React from 'react';
 import "../style.css"
-export default function Resume() {
+export default function About() {
   return (
     <div className='about'>
       <h1>About Me</h1>

@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className='contact'>
     <div className='form'>
-      <h1>Contact Page</h1>
+      <h1>Contact Me!</h1>
       <p>
         Feel free to contact me with the form below &#128522;
               </p>
