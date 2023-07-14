@@ -1,6 +1,5 @@
 import React from 'react';
 import "../style.css";
-
 import streaming from '../../images/streaming.png';
 import gourmet from '../../images/gourmet.png';
 import ollisander from '../../images/ollisander.png';
@@ -16,10 +15,7 @@ export default function Portfolio() {
         <a  href="https://wizard-wands-production.up.railway.app/"><img alt="ollisander" className="portfolio-img" src={ollisander}></img>  </a><br></br>
         <a  href="https://brenda255.github.io/weather-dashboard/"><img alt="weather" className="portfolio-img" src={weather}></img>  </a><br></br>
       </div>
-      
-      
-      
-    </div>
+      </div>
   )
 };
 

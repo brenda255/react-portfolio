@@ -1,34 +1,13 @@
 import React from 'react';
 import "../style.css"
+import pdf from '../../resume/Resume.pdf';
 
 export default function Resume() {
   return (
     <div className='resume'>
-      <h1>Resume</h1>
-      <p>
-        Download my <a href="https://docs.google.com/document/d/1uuReNEPYVU-HyOk8_85ByvHY04RgJ0qHXTcmk_wJPw4/edit?usp=sharing">Resume</a>
-</p>
-{/* <h2>Front-end Proficiencies</h2>
-<ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-  <li>jQuery</li>
-  <li>Responsive Design</li>
-  <li>React</li>
-  <li>Bootstrap</li>
-</ul>
-<h2>Back-end Proficiencies</h2>
-<ul>
-  <li>API's</li>
-  <li>Node.js</li>
-  <li>Express</li>
-  <li>MySQL</li>
-  <li>MongoDB, Mongoose</li>
-  <li>Rest</li>
-  <li>GraphQL</li>
-</ul> */}
-
+     <h1>
+        Download my <a href= {pdf} target="_blank" rel="noopener noreferrer" >Resume</a>
+</h1>
 <h1>Languages, Skills, and Libraries</h1>
 <div className='skills-container'>
 <ul>
@@ -41,6 +20,8 @@ export default function Resume() {
   <li><img src='https://skillicons.dev/icons?i=mongodb' title='mongodb' alt='mongodb'/></li>
   <li><img src='https://skillicons.dev/icons?i=mysql' title='mysql' alt='mysql'/></li>
   <li><img src='https://skillicons.dev/icons?i=github' title='github' alt='github'/></li>
+  <li><img src='https://skillicons.dev/icons?i=vscode' title='vscode' alt='vscode'/></li>
+
 </ul>
 
     </div>
