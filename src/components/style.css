@@ -13,29 +13,17 @@ body {
     margin: 0;
     padding: 0;
 
-    background: hsla(340, 80%, 69%, 1);
+    background: #EAE7DC;
 
-    background: linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
-
-    background: -moz-linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
-
-    background: -webkit-linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
-
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ef709b", endColorstr="#fa9372", GradientType=1);
-
-}
-
-
-.background {
-    background: hsla(340, 80%, 69%, 1);
-
-    background: linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+    /* color:#333333; */
+    color: #4a4949
+    /* background: linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
 
     background: -moz-linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
 
     background: -webkit-linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
 
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ef709b", endColorstr="#fa9372", GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ef709b", endColorstr="#fa9372", GradientType=1); */
 
 }
 
@@ -45,15 +33,16 @@ body {
     justify-content: space-between;
     padding: 8px 10px;
     align-items: center;
+    background-color: #EAE7DC;
 }
 
 /* Greeting page */
 .greeting {
     width: fit-content;
     height: fit-content;
-    margin: 100px auto;
+    margin: 20px auto;
     padding: 20px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); */
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -95,7 +84,7 @@ body {
     opacity: 0;
     animation: fade-in 3s ease-in-out forwards;
     cursor: pointer;
-    color: rgb(82, 72, 75);
+    color: #E98074;
 }
 
 @keyframes fade-in {
@@ -197,6 +186,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    margin-left: 50px;
 
 }
 
@@ -206,6 +196,10 @@ body {
 }
 
 /* Resume Page */
+.resume {
+    margin-top: 230px;
+}
+
 .skills-container {
     display: flex;
     justify-content: center;
@@ -261,10 +255,10 @@ body {
 
 
 /* Footer  */
-footer {
+/* footer {
     background-color: rgb(232, 161, 182);
     color: #fff;
-    padding: 5px;
+    padding: 2px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -274,27 +268,17 @@ footer {
 .footer-container {
     max-width: 1900px;
     /* margin: 0 auto; */
-}
+/* } */
 
-.footer-container p {
-    margin-bottom: 10px;
+/* .footer-container p {
+    margin-bottom: 7px;
     text-align: center;
-}
+} */ 
 
 /* .footer-container ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.footer-container ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.footer-container ul li a {
-    color: #fff;
-    text-decoration: none;
 }
 
 .footer-container ul li a:hover {
@@ -308,5 +292,5 @@ footer {
 .contact {}
 
 .nav-link {
-    color: rgb(82, 72, 75);
+    color: #E98074;
 }

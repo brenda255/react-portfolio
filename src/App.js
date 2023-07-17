@@ -1,11 +1,11 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 const App = () => (
 <div>
  <PortfolioContainer /> 
- <Footer />;
+ {/* <Footer />; */}
  </div>
 )
 export default App;
