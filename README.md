@@ -1,39 +1,18 @@
-# react-portfolio
+# React Portfolio
 
 ## Description
-This is a simple portfolio website built with React. The purpose of this website is to showcase your skills and projects to potential employers or clients. The website has four main pages: About, Portfolio, Resume, and Contact.
+Welcome to my portfolio page! This is a showcase of my skills, projects, and experience in web development. Explore my work and get a glimpse of the innovative web experiences I have crafted.
 
-About: Provides detailed information about your background, education, and work experience.
-Portfolio: Showcases some of your recent projects, including descriptions and links to their repositories and live demos.
-Resume: Provides a link of your resume that visitors can download.
-Contact: Provides a form for visitors to send you a message or inquiry.
+Take a look at my projects, read about my background, and feel free to reach out for collaboration or inquiries. I hope you enjoy browsing through my portfolio.
 
-You can navigate between these pages using the navigation bar at the top of the page.
-
-## Installation
-To install the website, follow these steps:
-
-Clone the repository to your local machine using git clone.
-Navigate to the project directory in your terminal or command prompt.
-Run npm install to install the necessary dependencies.
-
-## Usage
-To run the website, follow these steps:
-
-In the project directory, run npm start to start the development server.
-Open your web browser and navigate to http://localhost:3000 to view the website.
-You can modify the content of the pages and components, as well as the stylesheets and other assets to customize the website for your own use. The website is built using React, with components organized in the src/components directory. The pages are implemented as top-level components in the src/pages directory.
-
-You can modify the stylesheets using the CSS files in the src directory. 
+## Tools 
+React, CSS
 
 ## Deployment
 Click [here](https://lovely-malabi-244998.netlify.app/) to view deployed site. 
-
-## Credits
-The website uses various open-source libraries and assets, including React.
 
 ## License
 This project is licensed under the MIT License.
 
 ## Visual
-![](./src/images/ss.png)
+![](./src/images/portfolio.png)
