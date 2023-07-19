@@ -7,17 +7,18 @@
 html {
     height: 100%;
 
+
 }
 
 body {
     margin: 0;
     padding: 0;
 
-    background: #EAE7DC;
+    background: #E9DDEA;
 
     /* color:#333333; */
     color: #4a4949
-    /* background: linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+        /* background: linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
 
     background: -moz-linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
 
@@ -33,22 +34,26 @@ body {
     justify-content: space-between;
     padding: 8px 10px;
     align-items: center;
-    background-color: #EAE7DC;
+    background-color: #E9DDEA;
 }
 
 /* Greeting page */
 .greeting {
-    width: fit-content;
+    /* width: fit-content;
     height: fit-content;
     margin: 20px auto;
-    padding: 20px;
+    padding: 20px; */
     /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); */
-    /* display: flex;
+
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    margin-top: 50px;
     opacity: 0;
     transform: translateY(100vh);
     animation: fade-in-bottom 3s ease-in-out forwards;
+
 }
 
 @keyframes fade-in-bottom {
@@ -73,6 +78,7 @@ body {
 .greeting-one {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -84,7 +90,9 @@ body {
     opacity: 0;
     animation: fade-in 3s ease-in-out forwards;
     cursor: pointer;
-    color: #E98074;
+    color: #E38787;
+    margin-left: 44%;
+    margin-top: 8px;
 }
 
 @keyframes fade-in {
@@ -129,7 +137,7 @@ body {
 }
 
 
- ul {
+ul {
     list-style-type: none;
     display: flex;
     margin: 0;
@@ -168,6 +176,7 @@ body {
     margin: 50px auto;
     /* Centers the element horizontally */
     padding: 0 20px;
+    font-size: 20px;
 }
 
 
@@ -187,7 +196,6 @@ body {
     align-items: center;
     margin-top: 100px;
     margin-left: 50px;
-
 }
 
 .portfolio-img {
@@ -252,7 +260,10 @@ body {
     background-color: #333;
 }
 
-
+.contact ul {
+    display: flex;
+    justify-content: center;
+}
 
 /* Footer  */
 /* footer {
@@ -273,7 +284,7 @@ body {
 /* .footer-container p {
     margin-bottom: 7px;
     text-align: center;
-} */ 
+} */
 
 /* .footer-container ul {
     list-style-type: none;
@@ -286,11 +297,105 @@ body {
 } */
 
 
-.about,
-.resume,
-.portfolio,
-.contact {}
-
 .nav-link {
-    color: #E98074;
+    color: #E38787;
+}
+
+/* Responsive Layout  */
+
+/* Styles for screens smaller than 768px (e.g., tablets) */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .greeting {
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+
+    .name {
+        position: absolute;
+        top: 0;
+        font-size: 28px;
+    }
+
+    .nav-tabs {
+        justify-content: center;
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+    .nav-tabs li {
+        padding: 4px;
+    }
+
+    .nav-tabs a {
+        font-size: 24px;
+        padding: 4px;
+    }
+
+    .pics {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .portfolio-img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .resume {
+        margin-top: 100px;
+    }
+
+    .resume ul {
+        flex-wrap: wrap;
+    }
+
+    .resume h1 {
+        font-size: 24px;
+    }
+
+    .contact-form {
+        max-width: 300px;
+        padding: 10px;
+    }
+
+}
+
+/* Styles for screens smaller than 480px (e.g., smartphones) */
+@media screen and (max-width: 480px) {
+    .greeting {
+        width: 90%;
+        margin: 5px auto;
+        padding: 5px;
+    }
+
+    .nav-tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-tabs li {
+        padding: 4px;
+    }
+
+    .nav-tabs a {
+        font-size: 20px;
+        padding: 4px;
+    }
+
+    .name {
+        font-size: 24px;
+        margin-left: 10%;
+    }
+
+    .contact-form {
+        max-width: 200px;
+        padding: 5px;
+    }
 }

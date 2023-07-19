@@ -5,11 +5,8 @@ export default function About() {
     <div className='about'>
       <h1>About Me</h1>
       <p>
-      I am a driven and dedicated developer with a passion for creating innovative solutions to complex problems. Through my bootcamp experience, I have gained a strong foundation in HTML, CSS, and JavaScript as well as experience with various front-end and back-end frameworks.<br></br>
-
-      <br></br>I have honed my skills in collaborative development, agile methodologies, and project management, and am committed to continuous learning and growth as a developer. My projects have included creating responsive websites, building interactive web applications, and integrating APIs, among others.<br></br>
-
-      <br></br>I am actively seeking opportunities to apply my skills and collaborate with teams on exciting projects. If you're interested in working with a motivated and enthusiastic developer, please don't hesitate to reach out. Let's build something great together!<br></br>
+      As a recent coding bootcamp graduate, I have acquired skills in HTML, CSS, and JavaScript. With a passion for web development, I am excited to embark on my journey as a professional developer. I am eager to apply my knowledge and creativity to create engaging and interactive websites. <br />
+      <br />Committed to continuous learning, I strive to stay updated with the latest technologies and trends in the industry. I am ready to contribute my skills and collaborate with others to build innovative digital experiences.
       </p>
     </div>
   );
