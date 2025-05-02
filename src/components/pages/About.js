@@ -5,10 +5,11 @@ export default function About() {
     <div className='about'>
       <h1>About Me</h1>
       <p>
-      Hey there! I graduated from the University of Utah Coding Bootcamp in April 2023 and I'm excited to jump into the tech scene. During the length of the course we learned skills in HTML, CSS, and JavaScript. It provided me with the essential skills to become a Full-Stack Web Developer.
+      Hey! I’m a graduate of the University of Utah Coding Bootcamp, where I got hands-on experience with HTML, CSS, JavaScript, and full-stack development.<br />
 
-      <br />Since I know the tech world is always changing, I'm up for learning and growing as I go. Can't wait to work on some awesome projects and be a part of this community! <br />
-      
+      <br />What I loved most about the program was building real projects and learning how everything connects—from the front-end design to back-end logic. I’m still learning every day, and that’s honestly my favorite part about being in tech—there’s always something new to explore.<br />
+
+      <br />I'm excited to grow as a developer, build cool stuff with great people, and contribute wherever I can. Thanks for checking out my work!<br />
       </p>
     </div>
   );
