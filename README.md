@@ -7,7 +7,6 @@
 
   ## Table of Contents
   * [Installation](#installation)
-  * [License](#license)
   * [Visual](#visual)
   * [Questions](#questions)
   
@@ -16,16 +15,9 @@
   ## Installation
   Click [here](https://lovely-malabi-244998.netlify.app/) to view deployed site. 
 
-  ## License
-
-This application is covered under the MIT license.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-For more information, please visit the [MIT License](https://opensource.org/licenses/MIT).
 
   ## Visual
-  ![](./src/images/portfolio.png)
+  ![](./public/portfolio.png)
 
   ## Questions
   You can contact me with any questions below! 
