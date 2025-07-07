@@ -1,14 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
   {
     id: 1,
     title: "Streaming Locator",
-    description:"Helps users quickly find where a movie or TV show is streaming across major platforms.",
+    description:
+      "Helps users quickly find where a movie or TV show is streaming across major platforms.",
     image: "/streaming.png",
     liveUrl: "https://sifrult.github.io/streaming_locator/",
     githubUrl: "https://github.com/sifrult/streaming_locator",
@@ -16,7 +17,8 @@ const projects = [
   {
     id: 2,
     title: "Cozy Book Club",
-    description: "A personal reading tracker that lets users search for books and organize them into reading lists.",
+    description:
+      "A personal reading tracker that lets users search for books and organize them into reading lists.",
     image: "/book.png",
     liveUrl: "https://brenda255.github.io/cozy-book-club/",
     githubUrl: "https://github.com/brenda255/cozy-book-club",
@@ -24,7 +26,8 @@ const projects = [
   {
     id: 3,
     title: "Ollisanders",
-    description:"A collaborative e-commerce site for a fictional wand store, built with Stripe integration for payments.",
+    description:
+      "A collaborative e-commerce site for a fictional wand store, built with Stripe integration for payments.",
     image: "/ollisander.png",
     liveUrl: "https://wizard-wands-production.up.railway.app/",
     githubUrl: "https://github.com/Ksteed8859/wizard-wands",
@@ -32,7 +35,8 @@ const projects = [
   {
     id: 4,
     title: "Weather Dashboard",
-    description:"A weather app that shows current conditions and a 5-day forecast based on user-searched cities.",
+    description:
+      "A weather app that shows current conditions and a 5-day forecast based on user-searched cities.",
     image: "/weather.png",
     liveUrl: "https://brenda255.github.io/weather-dashboard/",
     githubUrl: "https://github.com/brenda255/weather-dashboard",
@@ -63,12 +67,12 @@ export default function ProjectsSection() {
             whileHover={{ scale: 1.02 }}
             className="group relative aspect-video bg-gradient-to-br from-purple-900/50 to-blue-900/50 rounded-xl overflow-hidden"
           >
-            <Image
+            <img
               src={project.image}
               alt={project.title}
-              fill
-              className="object-cover transition-transform group-hover:scale-105"
-            />
+              className="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-105"
+            />{" "}
+			
             <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors duration-300" />
             <div className="absolute inset-0 p-6 flex flex-col justify-end">
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
